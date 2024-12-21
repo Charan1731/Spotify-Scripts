@@ -7,8 +7,8 @@ from datetime import datetime
 import dateutil.parser
 
 # Spotify credentials
-CLIENT_ID = 'f2d43d6bd63b433d9512a04c2bba3ff6'
-CLIENT_SECRET = '7f306ac69e8c4b098d78e6e158fec41d'
+CLIENT_ID = 'SPOTIFY_CLIENT_ID'
+CLIENT_SECRET = 'SPOTIFY_CLIENT_SECRET'
 REDIRECT_URI = 'http://127.0.0.1:5000/redirect'
 scope = 'user-read-recently-played user-top-read'
 
