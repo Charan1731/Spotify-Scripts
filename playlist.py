@@ -2,8 +2,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # Spotify credentials
-SPOTIPY_CLIENT_ID = 'f2d43d6bd63b433d9512a04c2bba3ff6'
-SPOTIPY_CLIENT_SECRET = '7f306ac69e8c4b098d78e6e158fec41d'
+SPOTIPY_CLIENT_ID = 'SPOTIFY_CLIENT_ID'
+SPOTIPY_CLIENT_SECRET = 'SPOTIFY_CLIENT_SECRET'
 SPOTIPY_REDIRECT_URI = 'http://127.0.0.1:5000/redirect'
 
 scope = 'playlist-modify-public user-top-read user-read-recently-played'
